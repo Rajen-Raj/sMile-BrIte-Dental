@@ -1,0 +1,292 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+
+/* ----------variable define---------- */
+
+:root{
+  --primary-color: #313053;
+  --font-base:"Bai Jamjuree";
+  --secondary-color:#43121d;
+  --third-color:#f98169;
+  /* --back-color:#B0C4DE ; */
+  --back-color:#af2a6a;
+  
+  --text-color:#555;
+  --text-gray:#999;
+  --black-color:#000;
+  --primary-font:'Raboto', sans-serif;
+  --secondary-font:'Quicksand', sans-serif;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-base), sans-serif;
+  color: white;
+}
+
+.navbar-brand img{
+  max-width:250px;
+}
+
+.home-section{
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg.jpg);
+  background-size:cover;
+  max-width: 100%;
+  height: 100vh;
+
+}
+
+.nav-item{
+  padding: 15px;
+  transition: all 0.2 ease-in-out;
+}
+
+.nav-link{
+  color:white;
+  font-size: 18px;
+  font-weight: 500;
+  position:relative;
+  padding-bottom:5px;
+}
+.nav-link:hover{
+  color: white;
+}
+
+.navbar-roggler:focus,
+.navbar-roggler:active,
+.navbar-toggler,
+.fas{
+  outline:none;
+  box-shadow: none;
+  color:white
+
+}
+
+.body-text{
+position: absolute;
+top:65%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+width: 90%;
+color:white;
+ text-shadow: 6px 5px 8px red;
+
+}
+
+.body-text h2{
+  font-family: 'Sacramento', cursive;
+  font-size:120px;
+  font-weight: 700;
+
+  letter-spacing:8px;
+}
+
+.body-text h2 span{
+  color: #313053;
+  text-shadow: 2px 2px red;
+  font-family: 'Sacramento', cursive;
+
+}
+
+
+.wrraper{
+  background: #313053;
+}
+
+
+.appall{
+  padding-top:50px;
+  padding-bottom :50px;
+}
+.heading{
+  font-weight: 600;
+  color:black;
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+
+.heading h2{
+  text-align:center;
+  font-size:35px;
+  font-family:Raleway, sans-serif;
+  text-transform:uppercase;
+}
+
+/* .heading h2:after{
+  content:'';
+  background:var(--primary-color);
+  position:absolute;
+  left:38%;
+  bottom:0;
+  height:2px;
+  width:15rem;
+  display:block;
+  margin:0px auto;
+  text-align: center;
+}
+ */
+.section{
+  background:var(--back-color);
+  width:100%;
+  height:auto;
+  padding: 50px 0;
+  text-align: center;
+  }
+.bord-line{
+  width:100%;
+  height: 1px;
+  background:white;
+  margin:auto
+}
+
+/* --------------------------TREATMENT WE OFFER-------------------------------*/
+.img-boxx{
+  max-width:220px;
+  height:240px;
+  margin:0px auto;
+  object-fit: cover;
+
+}
+
+.img-boxx img{
+  max-width:100%;
+  height:220px;
+  border: 1px solid gray;
+
+}
+.card{
+  padding:15px 30px;
+  transition: background-color 0.3s ease;
+  border-radius: 25px 0px 25px 0px;
+  border-color: black;
+  /* background:#43121dc9; */
+  background: var(--primary-color);
+
+}
+
+.card:hover{
+/* background:var(--primary-color); */
+/* background: #303753; */
+background:#43121dcc;
+
+color: white;
+}
+
+.card-body{
+  padding:0px 15px;
+}
+
+.tmimg{
+
+}
+.tmimg img{
+  max-width: 200px;
+  max-height: 200px;
+  border:5px solid var(--primary-color) !important;
+  padding: 5px;
+  background: var(--primary-color);
+}
+.tmtxt{
+
+}
+
+#team{
+  background: var(--back-color);
+}
+
+
+
+
+/*-----------------About Us Section Start---------------*/
+
+
+.about-section{
+  font-family:Raleway, sans-serif;
+}
+.about-img,
+.about-txt{
+border: 2px solid white;
+color:white;
+}
+
+.ab-img{
+  margin:15px auto !important;
+  padding: auto 0 !important;
+  max-width:660px;
+}
+
+.about-img{
+ width: 100%;
+}
+
+.about-txt{
+  background:#303753;
+  padding:15px;
+}
+.about-txt h2{
+  padding-bottom: 10px;
+}
+.foot{
+  height:60px;
+  padding:10px;  
+}
+.fa-facebook-official{
+  color:  #3b5998;;
+}
+
+.fa-twitter{
+color: #137cff;
+}
+.fa-instagram{
+    color: #f09433; ;
+}
+
+.hr-line{
+  width:85%;
+  margin: auto;
+
+}
+.map-icon .fa{
+  font-size: 20px;
+  color:#137cff;
+}
+
+
+.footer-section{
+  /* /* background: #af2a6ae7; */
+  background: #2f3337e5;
+}
+
+.footer-links{
+  margin-top: 80px;
+  margin-bottom: 50px;
+  padding: 20px;
+  text-align:center;
+}
+
+.footer-links ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li{
+  padding-bottom: 15px;
+}
+
+.footer-links ul li a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #137cff;
+}
+
+
+.footer-links ul li a:hover{
+  color: white;
+  text-decoration:underline;
+}

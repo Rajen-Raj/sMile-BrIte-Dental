@@ -1,0 +1,237 @@
+
+
+
+@media (min-width:993px) {
+
+
+.nav-link{
+  color:white;
+  font-size: 18px;
+  font-weight: 500;
+  position:relative;
+  padding-bottom:5px;
+}
+.nav-link:hover{
+  color: white;
+}
+
+
+
+ ul li a::after{
+  content: '';
+  position: absolute;
+ /* background: #313053;*/
+  background:red;
+  height: 2px;
+  left:0;
+  bottom:0;
+  width:0;
+  transition: width 0.5s;
+
+} 
+
+ul li a:hover::after{
+  width: 100%;
+}
+}
+
+
+
+/*********** Medium Screen ************/
+
+@media (max-width:991px) 
+
+
+{
+  .navbar-brand img{
+    width: 220px;
+  }
+
+  .navbar{    
+  padding:0 20px;
+  z-index: 1;
+  position: relative;
+  }
+
+
+  .body-text{
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 90%;
+    color:white;
+     text-shadow: 6px 5px 8px red;
+    
+    }
+
+
+
+  .home h2{
+    font-size:75px;
+  }
+
+  .home-section{
+    width: auto;
+    background-size: cover;
+    background-position:center;
+  }
+
+  .card{
+    margin-right:0px !important;
+    margin-left: 0px !important;
+  }
+
+.about-txt h2{
+  font-size: 17px;
+}
+.about-txt p{
+  font-size: 13px;
+}
+
+.heading h2{
+  font-size:25px;
+}
+
+.footer-links{
+  margin:10px auto;
+}
+
+.card-title{
+  font-size:16px;
+}
+.card-text{
+  font-size:13px;
+}
+
+.tmtxt h4{
+  font-size:20px;
+}
+.tmtxt h5{
+  font-size:17px;
+}
+.tmimg p{
+  font-size: 15px;
+}
+
+}
+
+
+@media (max-width:767px){
+.tmimg{
+  margin:0px !important;
+  padding: 0px !important;
+  margin-bottom: 10px !important;
+}
+
+.tmtxt{
+  margin:0px !important;
+  padding:0px !important;
+  margin-top: 10px !important;
+  margin-bottom:15px !important;
+
+}
+
+}
+
+
+@media (max-width:576px){
+
+  .navbar-brand img{
+    width:100px;
+  }
+
+.nav-link{
+  font-size:12px;
+}
+
+  .home h2{
+    font-size:75px;
+  }
+
+  .home h2{
+    font-size:40px;
+  }
+
+  .heading{
+    margin-bottom: 20px;
+    padding:0px;
+  }
+  .appall{
+    padding: 10px 0;
+  }
+
+.heading h2{
+  font-size:15px
+}
+  
+  
+
+  .card{
+    max-height:270px;
+    max-width: 240px;
+    margin: auto !important;
+  }
+  .img-boxx img{
+    max-height: 120px;
+  }
+  
+  .card-title{
+    font-size:14px;
+    padding-top: 10px !important;
+  }
+  .card-text{
+    font-size: 10px;
+    padding-left: 10px;
+  }
+
+  .btn{
+    font-size: 10px;
+  }
+.tmtxt{
+  padding:5px 5px !important;
+  max-width:95%;
+  margin: auto !important;
+}
+
+  .tmtxt h4,h5{
+    font-size:12px;
+
+  }
+
+  .tmtxt p{
+    font-size: 10px;
+  }
+
+
+/* ----------- About text --------------*/
+
+.about-txt h2{
+  font-size: 12px;
+}
+.about-txt p{
+  font-size: 10px;
+}
+
+
+
+.footer-section h6{
+  font-size: 12px;
+}
+.footer-section .fa{
+  font-size:20px;
+}
+
+.map-icon{
+  font-size:10px;
+}
+
+.footer-links h5{
+  font-size: 13px;
+}
+.footer-links ul li a{
+  font-size:11px;
+}
+
+}
