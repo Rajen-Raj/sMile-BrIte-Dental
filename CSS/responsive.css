@@ -154,6 +154,23 @@ ul li a:hover::after{
     font-size:40px;
   }
 
+
+.body-text{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 90%;
+    color:white;
+     text-shadow: 6px 5px 8px red;
+    
+    }
+
+
+
+  
+
   .heading{
     margin-bottom: 20px;
     padding:0px;
@@ -195,7 +212,7 @@ ul li a:hover::after{
   margin: auto !important;
 }
 
-  .tmtxt h4,h5{
+  .tmtxt h4, tmtxt h5{
     font-size:12px;
 
   }
