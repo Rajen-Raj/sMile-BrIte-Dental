@@ -207,11 +207,11 @@ ul li a:hover::after{
     font-size: 10px;
   }
 
-/* .tmtxt{
+ .tmtxt{
   padding:5px 5px !important;
   max-width:100%;
   margin: auto !important;
-} */
+}
 
   .tmtxt h4, .tmtxt h5{
     font-size:12px;
