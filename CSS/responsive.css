@@ -136,6 +136,12 @@ ul li a:hover::after{
 }
 
 
+
+
+
+/*********** Small Screen ************/
+
+
 @media (max-width:576px){
 
   .navbar-brand img{
@@ -210,8 +216,8 @@ ul li a:hover::after{
  .tmtxt{
   padding:5px 5px !important;
   max-width:95%;
-  margin: auto !important;
-}
+/*   margin: auto !important; */
+} 
 
   .tmtxt h4, .tmtxt h5{
     font-size:12px;
