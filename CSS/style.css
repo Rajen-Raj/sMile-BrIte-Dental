@@ -28,6 +28,10 @@
   color: white;
 }
 
+body{
+overflow-x:hidden;
+}
+
 .navbar-brand img{
   max-width:250px;
 }
